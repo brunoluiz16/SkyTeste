@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.7.9 on win32)" generated="20211201 16:06:47.495" rpa="false" schemaversion="2">
+<suite id="s1" name="TesteBruno" source="C:\RobotFramework\QARobot\TesteBruno.robot">
+<test id="s1-t1" name="CT01:">
+<kw name="Pesquisa Canal" library="ResourceBruno">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>url=${URL}</arg>
+<arg>browser=${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211201 16:06:47.806" level="INFO">Opening browser 'chrome' to base url 'http://www.sky.com.br'.</msg>
+<status status="PASS" starttime="20211201 16:06:47.806" endtime="20211201 16:06:51.516"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20211201 16:06:51.517" endtime="20211201 16:06:52.207"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211201 16:06:53.214" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20211201 16:06:52.208" endtime="20211201 16:06:53.215"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_YQcCxObpxg0J"]/div/div[2]/div/div[2]/div/div/div/div[1]/button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211201 16:06:53.219" level="INFO">Clicking element 'xpath://*[@id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_YQcCxObpxg0J"]/div/div[2]/div/div[2]/div/div/div/div[1]/button'.</msg>
+<status status="PASS" starttime="20211201 16:06:53.216" endtime="20211201 16:06:53.359"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211201 16:06:54.363" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20211201 16:06:53.359" endtime="20211201 16:06:54.364"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="main-menu"]/div[2]/div[2]/ul[1]/li[3]/a/strong</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211201 16:06:54.368" level="INFO">Clicking element 'xpath://*[@id="main-menu"]/div[2]/div[2]/ul[1]/li[3]/a/strong'.</msg>
+<status status="PASS" starttime="20211201 16:06:54.365" endtime="20211201 16:06:57.178"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211201 16:06:58.191" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20211201 16:06:57.179" endtime="20211201 16:06:58.192"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_aKJUz209eKa8"]/div/div[2]/div/div[2]/section/div/div[1]/div/div/a[2]/div/span[2]/h1[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211201 16:06:58.193" level="INFO">Clicking element 'xpath://*[@id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_aKJUz209eKa8"]/div/div[2]/div/div[2]/section/div/div[1]/div/div/a[2]/div/span[2]/h1[1]'.</msg>
+<status status="PASS" starttime="20211201 16:06:58.192" endtime="20211201 16:07:00.724"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211201 16:07:01.737" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20211201 16:07:00.725" endtime="20211201 16:07:01.737"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="searchChannel"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211201 16:07:01.738" level="INFO">Clicking element 'xpath://*[@id="searchChannel"]'.</msg>
+<status status="PASS" starttime="20211201 16:07:01.738" endtime="20211201 16:07:01.893"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211201 16:07:02.907" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20211201 16:07:01.894" endtime="20211201 16:07:02.907"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath://*[@id="searchChannel"]</arg>
+<arg>SBT</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211201 16:07:02.908" level="INFO">Typing text 'SBT' into text field 'xpath://*[@id="searchChannel"]'.</msg>
+<status status="PASS" starttime="20211201 16:07:02.907" endtime="20211201 16:07:03.159"/>
+</kw>
+<status status="PASS" starttime="20211201 16:06:47.805" endtime="20211201 16:07:03.160"/>
+</kw>
+<status status="PASS" starttime="20211201 16:06:47.804" endtime="20211201 16:07:03.162"/>
+</test>
+<status status="PASS" starttime="20211201 16:06:47.498" endtime="20211201 16:07:03.167"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TesteBruno">TesteBruno</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
